@@ -25,7 +25,7 @@ const Contact = ()=>{
         >
           Contact Me
         </motion.h2>
-            <motion.div initial={{opacity:0 , y: 200}} whileInView={{opacity:1 , y:0}} transition={{duration:1}} viewport={{once:true}} className=" border-2 border-gray-400 rounded-3xl flex flex-wrap gap-10 p-5 text-2xl mt-60" id="anchors">
+            <motion.div initial={{opacity:0 , y: 200}} whileInView={{opacity:1 , y:0}} transition={{duration:1}} viewport={{once:true}} className=" border-2 border-gray-400 rounded-3xl flex flex-wrap gap-10 p-5 text-[22px] mt-60" id="anchors">
                 <a target="_blank" href="mailto:ahmadsearcy7@gmail.com"><i class="fa-solid fa-envelope"></i> ahmadsearcy7@gmail.com</a>
                 <a target="_blank" href="https://www.linkedin.com/in/ahmad-searcy/"><i class="fa-brands fa-linkedin"></i> https://www.linkedin.com/in/ahmad-searcy/</a>
             </motion.div>

@@ -38,11 +38,11 @@ const About = () => {
             id="experience"
           >
             <i class="fa-solid fa-medal"></i>
-            <p className="font-bold">Experience</p>
-            <p>{`${yearsOfDevelopment.getFullYear() - 2022}+ years`}</p>
+            <p className="font-bold text-3xl">Experience</p>
+            <p className="font-semibold mt-2">{`${yearsOfDevelopment.getFullYear() - 2022}+ years`}</p>
             <p>Frontend Development</p>
-            <p>{`${yearsOfDevelopment.getFullYear() - 2023}+ years`}</p>
-            <p>Backend Development</p>
+            <p className="mt-2 font-semibold">{`${yearsOfDevelopment.getFullYear() - 2023}+ years`}</p>
+            <p className="">Backend Development</p>
           </motion.div>
           <motion.div
           initial={{ opacity: 0, y: 200 }}
@@ -53,8 +53,8 @@ const About = () => {
             id="education"
           >
             <i class="fa-solid fa-book"></i>
-            <p className="font-bold">Education</p>
-            <p>Bachelors Degree</p>
+            <p className="font-bold text-3xl">Education</p>
+            <p className="mt-2">Bachelors Degree</p>
             <p>BBA Business Analytics</p>
           </motion.div>
         </div>
