@@ -41,7 +41,8 @@ const About = () => {
             <p className="font-bold">Experience</p>
             <p>{`${yearsOfDevelopment.getFullYear() - 2022}+ years`}</p>
             <p>Frontend Development</p>
-            <p></p>
+            <p>{`${yearsOfDevelopment.getFullYear() - 2023}+ years`}</p>
+            <p>Backend Development</p>
           </motion.div>
           <motion.div
           initial={{ opacity: 0, y: 200 }}

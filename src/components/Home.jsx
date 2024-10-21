@@ -2,20 +2,13 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import { motion } from "framer-motion";
 import FloatingImage from "./FloatingImage";
 import { useState, useEffect } from "react";
+import { useType } from "./Hooks/useType";
 
 const Home = () => {
-  const [headerText, setHeaderText] = useState("");
-
-  const typewriter = (str) => {
-    for (let i = 0; i <= str.length; i++) {
-      setTimeout(() => {
-        setHeaderText(str.slice(0, i));
-      }, 80 * i);
-    }
-  };
+  const {typewriter,headerText} = useType();
 
   useEffect(() => {
-    typewriter(`Hello, I'mAhmad SearcyFrontend Engineer`);
+    typewriter(`Hello, I'mAhmad SearcyFullstack Engineer`);
   }, []);
 
   return (
