@@ -1,6 +1,6 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { motion } from "framer-motion";
-import FloatingImage from "../Hooks/FloatingImage";
+import FloatingImage from "../components/FloatingImage";
 import { useState, useEffect } from "react";
 import { useType } from "../Hooks/useType";
 
@@ -8,7 +8,7 @@ const Home = () => {
   const {typewriter,headerText} = useType();
 
   useEffect(() => {
-    typewriter(`Hello, I'mAhmad SearcyFullstack Engineer`);
+    typewriter(`Hello, I'mAhmad SearcyFull-stack Software Engineer`);
   }, []);
 
   return (
@@ -29,7 +29,7 @@ const Home = () => {
             <div className="flex flex-col gap-3" id="Home-text">
               <p className="text-2xl font-bold">{headerText.slice(0, 10)}</p>
               <h2 className="font-bold text-5xl">{headerText.slice(10, 22)}</h2>
-              <h3 className="font-bold text-3xl text-gray-500">
+              <h3 className="font-bold text-2xl text-gray-500">
                 {headerText.slice(22)}
               </h3>
               <div id="download-buttons">

@@ -6,7 +6,7 @@ export const useType = () => {
     for (let i = 0; i <= str.length; i++) {
       setTimeout(() => {
         setHeaderText(str.slice(0, i));
-      }, 100 * i);
+      }, 70 * i);
     }
   };
   return({typewriter,headerText});
