@@ -1,8 +1,8 @@
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import { motion } from "framer-motion";
-import FloatingImage from "./FloatingImage";
+import FloatingImage from "../Hooks/FloatingImage";
 import { useState, useEffect } from "react";
-import { useType } from "./Hooks/useType";
+import { useType } from "../Hooks/useType";
 
 const Home = () => {
   const {typewriter,headerText} = useType();

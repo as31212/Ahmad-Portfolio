@@ -1,4 +1,4 @@
-import Project from "./Project";
+import Project from "../components/Project";
 import { motion } from "framer-motion";
 const Projects = ()=>{
 

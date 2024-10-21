@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 
 
 const Contact = ()=>{
