@@ -65,7 +65,7 @@ const About = () => {
         transition={{ duration: .4 }}
         className="min-w-80 border-2 mb-10 mt-10 mr-auto ml-auto border-gray-400 w-1/2 text-center p-10 text-2xl rounded-xl">
           <p>
-            As a self-taught Full-stack software engineer, my journey in tech is fueled by
+            As a self-taught full-stack software engineer, my journey in tech is fueled by
             an unquenchable thirst for knowledge and a commitment to continuous
             learning. Starting from scratch, I have cultivated a deep
             understanding of both design and data handling, enabling me to

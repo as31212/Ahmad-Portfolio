@@ -8,7 +8,7 @@ const Home = () => {
   const {typewriter,headerText} = useType();
 
   useEffect(() => {
-    typewriter(`Hello, I'mAhmad SearcyFull-stack Software Engineer`);
+    typewriter(`Hello, I'mAhmad SearcyFull-Stack Software Engineer`);
   }, []);
 
   return (
