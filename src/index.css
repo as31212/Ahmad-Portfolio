@@ -47,3 +47,21 @@
 #nav.active{
     max-height: 400px;
 }
+
+/* projects media queries */
+
+@media (max-width:1100px) {
+    .projects{
+        flex-direction: column;
+
+    }
+    .projects img{
+        width: 100%;
+    }
+    .description-title-projects{
+        width: 100%;
+    }
+    .project-links{
+        flex-direction: row;
+    }
+}
