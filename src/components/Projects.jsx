@@ -11,6 +11,12 @@ const Projects = () => {
           id="Projects-container"
         >
           <Project
+            title="Lead Service Line Replacement Prioritization Project"
+            img="garret-project-pipes.png"
+            description="Lead water service lines, once widely used for their durability and malleability, pose significant health risks due to lead leaching into drinking water (Fehr Graham, n.d.; Rabin, 2008). Over the years, several key laws and acts have been passed to address this issue. The 1986 Safe Drinking Water Act (SDWA) amendments were..."
+            url="https://storymaps.arcgis.com/stories/0c8c51cf8d1e48dea01ce1ab13e0f8ae"
+          />
+          <Project
             title="Extreme Heat Vulnerability in Chicago"
             img="extreme-heat-blog.jpg"
             description="Heat is the deadliest weather hazard in the US, and it accounts for approximately twenty percent of environmental hazard deaths in the US (Sharma et al. 2018). Between the late 1980s and 2015, 130 people on average died due to heat stress (Sharma et al. 2018). One case of severe heat stress..."
