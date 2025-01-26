@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Skill } from "../components/Skill";
 
 const Experience = () => {
   return (
@@ -36,50 +37,20 @@ const Experience = () => {
             </h2>
             <div className="flex flex-wrap justify-between" id="frontend-skills">
               <div className="flex flex-wrap flex-col" id="frontend-skills-left">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">HTML</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">CSS</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Javascript</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
+                <Skill name={"HTML"} exp={"Experienced"} />
+                <Skill name={"CSS"} exp={"Experienced"} />
+                <Skill name={"JavaScript"} exp={"Experienced"} />
+                <Skill name={"TypeScript"} exp={"Experienced"} />
+                <Skill name={"Redux"} exp={"Experienced"} />
+                <Skill name={"Jest"} exp={"Experienced"} />
               </div>
               <div className="flex flex-wrap flex-col" id="frontend-skills-right">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">React</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Tailwind</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Typescript</p>
-                    <p>Intermediate</p>
-                  </div>
-                </div>
+              <Skill name={"Framer-Motion"} exp={"Intermediate"} />
+              <Skill name={"React"} exp={"Experienced"} />
+              <Skill name={"NextJS"} exp={"Intermediate"} />
+              <Skill name={"Tailwind"} exp={"Experienced"} />
+              <Skill name={"Bootstrap"} exp={"Experienced"} />
+              <Skill name={"Swiper"} exp={"Intermediate"} />
               </div>
             </div>
           </motion.div>
@@ -97,51 +68,26 @@ const Experience = () => {
             </h2>
             <div className="flex flex-wrap justify-between" id="backend-skills">
               <div className="flex flex-wrap flex-col" id="backend-skills-left">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Python</p>
-                    <p>Basic</p>
-                  </div>
+              <Skill name={"NodeJS"} exp={"Experienced"} />
+              <Skill name={"ExpressJS"} exp={"Experienced"} />
+              <Skill name={"Spring"} exp={"Experienced"} />
+              <Skill name={"MongoDB"} exp={"Experienced"} />
+              <Skill name={"JUnit"} exp={"Experienced"} />
+              <Skill name={"JDBC"} exp={"Experienced"} />
+
                 </div>
-                <div className="mb-10 skill flex "flex-wrap >
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">SQL</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">NodeJS</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-              </div>
               <div className="flex flex-wrap flex-col" id="backend-skills-right">
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">ExpressJS</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">MongoDB</p>
-                    <p>Intermediate</p>
-                  </div>
-                </div>
-                <div className="mb-10 skill flex flex-wrap ">
-                  <i className="fa-solid fa-check mt-1 text-2xl mr-2 ml-2"></i>
-                  <div className="skill-text text-2xl ">
-                    <p className="font-bold">Rest API</p>
-                    <p>Experienced</p>
-                  </div>
-                </div>
+              <Skill name={"Python"} exp={"Intermediate"} />
+              <Skill name={"Java"} exp={"Experienced"} />
+              <Skill name={"Javalin"} exp={"Experienced"} />
+              <Skill name={"Postgres SQL"} exp={"Experienced"} />
+              <Skill name={"My SQL"} exp={"Experienced"} />
+              <Skill name={"Logback"} exp={"Experienced"} />
+              
+              
+
               </div>
+
             </div>
           </motion.div>
         </div>
